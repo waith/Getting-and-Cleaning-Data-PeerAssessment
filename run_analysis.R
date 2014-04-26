@@ -33,7 +33,7 @@ colnames(subject_test) <- "SubjectID"
 train_data <- cbind(subject_train, y_train, x_train)
 test_data <- cbind(subject_test, y_test, x_test)
 
-#combine test data set and test data set to form total data set
+#combine train data set and test data set to form total data set
 total_data <- rbind(train_data,test_data)
 
 #2.Extracts only the measurements on the mean and standard deviation for each measurement
