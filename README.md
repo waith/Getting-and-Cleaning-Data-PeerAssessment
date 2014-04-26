@@ -39,8 +39,12 @@ and also extract first 2 columns for SubjectID and Activity
 5.Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 *install reshape2 package
+
 *library(reshape2)
+
 *melt the data set by Activity and by SubjectID
+
 *dcast the molten data set with mean formula to get the Average by Activity and by SubjectID
+
 *The final data set is written as Data_Avg.txt
 
