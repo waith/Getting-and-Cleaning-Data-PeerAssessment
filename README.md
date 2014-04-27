@@ -1,12 +1,14 @@
 Getting-and-Cleaning-Data-PeerAssessment
 ========================================
-This is Getting and Cleaning Data Peer Assessment
+##Purpose:
 
-Create one R script called run_analysis.R that does the following:
+- Create one R script called run_analysis.R that does the following:
 
 
 
-1.Merges the training and the test sets to create one data set.
+###1. Merges the training and the test sets to create one data set.
+
+####Method
 
 *Save all the data set files in working directory
 
@@ -27,23 +29,31 @@ Create one R script called run_analysis.R that does the following:
 *Combine train data set and test data set to form total data set
 
 
-2.Extracts only the measurements on the mean and standard deviation for each measurement
+###2. Extracts only the measurements on the mean and standard deviation for each measurement
+
+####Method
 
 *Assumption: Extract only features with "mean()" and "std()" for each measurement 
 and also extract first 2 columns for SubjectID and Activity
 
-3.Uses descriptive activity names to name the activities in the data set
+###3. Uses descriptive activity names to name the activities in the data set
+
+####Method
 
 *Read in activity label
 
 *Change the activity label from factor to character
 
-4.Appropriately labels the data set with descriptive activity names.
+###4. Appropriately labels the data set with descriptive activity names.
+
+####Method
 
 *By matching the content in the Activity column of total data set with the content in the 1st column of Activity data set, then replace the content in Activity column in total data set with the content in the 2nd column of Activity data set (via as.character). 
 
 
-5.Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+###5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+####Method
 
 *install reshape2 package
 
